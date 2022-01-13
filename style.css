@@ -1,15 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&family=Roboto:wght@100&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
 }
 
 body{
     background:#F3F1FF;
 }
+
+header{
+  height: 94px;
+  width: 100%;
+  background: #562EFF;
+}
 section{
  margin-top: 30px;
  border-radius: 5px;
+}
+.container-header{
+  max-width: 870px;
+  padding-left: 30px;
+  margin: auto;
+  height: 100%;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container-header ul{
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+  list-style: none
+}
+.container-header ul li{
+  margin-right: 10px;
+}
+.container-header ul li a{
+  text-decoration: none;
+  color: #fff;
 }
 .container{
  max-width: 870px;
@@ -96,6 +129,9 @@ hr{
     font-size: 20px;
     text-decoration: none;
     color: #000;
+    font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-weight: bold;
 }
 .courses .course .instractor{
     font-size: 20px;
